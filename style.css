@@ -1,0 +1,108 @@
+*  {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #222327;
+}
+
+.container {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 100px;
+}
+h1 {
+	text-align: center;
+	width: 100%;
+	height: 30%;
+	font-size: 150px;
+	color: #161619;
+	font-family: Arial, serif;
+	text-transform: uppercase;
+	transition:1.5s;
+	text-rendering: optimizeLegibility;
+	-webkit-text-stroke: 2px rgba(193, 79, 227, 0.82);
+}
+
+h1:hover {
+	text-shadow: -1px 1px 1px rgba(193, 79, 227, 0.82),
+	-2px 2px 0 #161619,
+	-3px 3px 0 rgba(193, 79, 227, 0.82),
+	-4px 4px 0 #161619,
+	-5px 5px 0 rgba(193, 79, 227, 0.82),
+	-6px 6px 0 #161619,
+	-7px 7px 0 rgba(193, 79, 227, 0.82),
+	-8px 8px 0 #161619,
+	-9px 9px 0 rgba(193, 79, 227, 0.82),
+	-10px 10px 0 #161619,
+	-11px 11px 0 rgba(193, 79, 227, 0.82),
+	-12px 12px 0 #161619,
+	-13px 13px 0 rgba(193, 79, 227, 0.82),
+	-14px 14px 0 #161619,
+	-15px 15px 0 rgba(193, 79, 227, 0.82),
+	-16px 16px 0 #161619,
+	-17px 17px 0 rgba(193, 79, 227, 0.82),
+	-18px 18px 0 #161619,
+	-19px 19px 35px rgba(193, 79, 227, 0.82);
+	cursor: pointer;
+}
+
+h2 {
+	text-align: center;
+	width: 100%;
+	justify-content: center;
+	color: #dcdcdc;
+	font-size: 5rem;
+	font-family: Arial, serif;
+	text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+	transition: all 0.5s ease;
+}
+
+h2:hover {
+	text-shadow: 0 0 25px rgba(255, 255, 255, 0.6),
+			0 0 50px rgba(255, 255, 255, 0.4),
+			0 0 80px rgba(255, 255, 255, 0.2),
+			0 0 150px rgba(255, 255, 255, 0.1);
+	transform: translateY(-20px) rotateX(40deg);
+}
+
+h3 {
+	font-family: Arial, serif;
+	font-size: 5rem;
+	color: white;
+	text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+	transition: all 0.5s ease;
+}
+
+h3:hover {
+	transform: rotateX(15deg) rotateY(20deg);
+	text-shadow:
+	-3px -3px 6px rgba(255, 255, 255, 0.6),
+	-6px -6px 12px rgba(255, 255, 255, 0.4),
+	-10px -10px 15px rgba(255, 255, 255, 0.1);
+}
+
+
+img {
+	width: 700px;
+	height: auto;
+}
+h4{
+	font-family: Arial, serif;
+	font-size: 4.5rem;
+	color: #2a2a2a;
+	position: absolute;
+	transition: all 0.5s ease;
+}
+
+h4:hover {
+	transform: rotateX(15deg) rotateY(20deg);
+	text-shadow:
+	3px -3px 1px rgba(188, 98, 220, 0.6),
+	6px -6px 3px rgba(188, 98, 220, 0.4),
+	9px -9px 5px rgba(188, 98, 220, 0.4),
+	25px -25px 35px rgba(188, 98, 220, 0.6);
+}
